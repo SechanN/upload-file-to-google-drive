@@ -20,5 +20,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('/upload', DocumentController::class);
+Route::post('/upload', [DocumentController::class, 'store']); // masukin file ke folder tertentu
 
+Route::get('create-sub-dir', [DocumentController::class, 'createFolder']); // create folder and sub folder

@@ -12,7 +12,10 @@
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "nao-pon/flysystem-google-drive": "~1.1"
+        "league/flysystem-aws-s3-v3": "^1.0",
+        "masbug/flysystem-google-drive-ext": "^1.0.0",
+        "nao-pon/flysystem-google-drive": "~1.1",
+        "realrashid/sweet-alert": "^5.1"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
